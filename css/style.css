@@ -1,0 +1,451 @@
+body{
+	background-color: #ffffff;
+}
+.fp_container{
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+/*header section start*/
+header{
+	display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+a{
+	padding: 5px;
+	text-decoration: none;
+}
+.nav_bar{
+	display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.search i{
+	font-size: 20px;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+/*header section end*/
+
+/*slider section start*/
+.slider_section{
+    background-color: #000000;
+    padding: 20px;
+}
+
+.slider_title {
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 350px;
+    padding: 30px 200px 30px 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title {
+    color: #8a9cb6;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.button {
+	display: inline-block;
+    padding: 15px 30px;
+    background: #8a9cb6;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.btn_2{
+	display: inline-block;
+    padding: 15px 30px;
+    background: green;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/*slider section end*/
+
+/*services_blog start here*/
+.services_blog{
+	padding: 20px 0;
+}
+.services_blog .fp_container{
+	display: flex;
+    justify-content: space-between;
+}
+
+.services_blog .fp_container > div {
+	width: 32%;
+	background-color: #000000;
+	height: 300px;
+	color: #fff; 
+	display: flex;
+	align-items: flex-end;
+}
+
+.fp_accordion{
+	padding: 20px;
+	background-color: #8a9cb6;
+}
+.ac_head{
+	position: relative;
+}
+.ac_head i{
+	position: absolute;
+	right: 0;
+	top: 0;
+    cursor: pointer;
+}
+/*services_blog end here*/
+
+
+/*about_us start here*/
+.about_us{
+}
+.about_us .fp_container{
+	display: flex;
+    justify-content: space-between;
+}
+
+.imag_bar, .cabin_details {
+    width: 40%;
+    background-color: #000000;
+    height: 300px;
+    color: #fff;
+    padding: 20px;
+}
+
+.members{
+	position: relative;
+	width: 12%;
+	}
+
+.f_member, .s_member, .t_member{
+    height: 85px;
+    padding: 10px;
+}
+
+.f_member, .s_member{
+	background-color: #8a9cb6;
+}
+.f_member{
+	margin: 0px 7px 13px 7px;
+}
+
+.s_member{
+	margin: 7px;
+}
+
+.t_member{
+	background-color: #1385ef;
+	margin: 13px 7px 0px 7px;
+}
+
+.cabin_details{
+	position: relative;
+}
+.cabin_details i{
+	background-color: #8a9cb6;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cabin_head,.cabin_body{
+	margin-top: 40px;
+}
+.cabin_body{
+	margin-top: 40px;
+}
+/*about_us start here*/
+
+/*submitt start here*/
+.sub_bar{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+.sub{
+    position: absolute;
+    display: inline-block;
+    background-color: #8a9cb6;
+    left: 459px;
+    padding: 6px;
+    width: 100px;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sub_bar form{
+	display: flex;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sub_bar form input[type="email"] {
+    border-radius: 25px 0 0 25px;
+    height: 28px;
+    width: calc(100% - 130px);
+    padding: 0px 15px;
+    border: none;
+}
+
+.sub_bar form input[type="submit"] {
+    border-radius: 0 25px 25px 0;
+    width: 130px;
+    height: 28px;
+    cursor: pointer;
+    background-color: #8a9cb6;
+    border: none;
+    color: #fff;
+}
+
+/*about_us end here*/
+
+/*footer start here*/
+
+.copy{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*footer end here*/
+
+@media only screen and (max-width: 991px){
+
+.slider_title {
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 250px;
+    padding: 20px 30px 20px 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.button p{
+	margin: 0;
+}
+
+.title  {
+    color: #8a9cb6;
+}
+
+.title span{
+	display: block;
+    margin-bottom: 20px;
+}
+.services_blog .fp_container > div {
+    width: 32%;
+    background-color: #000000;
+    height: 250px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fp_accordion {
+    padding: 10px;
+    background-color: #8a9cb6;
+}
+/*
+.ac_head i {
+    position: absolute;
+    left: 175px;
+    cursor: pointer;
+    font-size: 20px;
+}*/
+.ac_body {
+    font-size: 12px;
+}
+
+h2.ac_head {
+    font-size: 20px;
+    margin: auto;
+}
+
+ .imag_bar, .cabin_details {
+    width: 40%;
+    background-color: #000000;
+    height: 200px;
+    color: #fff;
+    padding: 10px;
+}
+
+.members {
+    position: relative;
+    width: 15%;
+}
+
+.f_member, .s_member, .t_member {
+    height: 45px;
+    padding: 10px;
+}
+
+.cabin_details i{
+    background-color: #8a9cb6;
+    padding: 10px;
+    position: absolute;
+    left: 170px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: auto;
+	top:auto;
+}
+
+.cabin_head, .cabin_body {
+    margin: auto;
+}
+
+
+ .e-mail {
+    position: relative;
+    background-color: #fff;
+    margin: 0px 170px 0px 182px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+ .sub {
+    position: absolute;
+    background-color: #8a9cb6;
+    left: 238px;
+    padding: 6px;
+    width: 100px;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+}
+@media only screen and (max-width: 767px){
+
+.slider_section {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.title {
+    color: #8a9cb6;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px;
+    background: #8a9cb6;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.slider_title {
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding: 15px 20px 15px 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.services_blog .fp_container {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.services_blog .fp_container > div {
+    width: 100%;
+    background-color: #000000;
+    height: 220px;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.about_us .fp_container {
+	display: block;
+}
+
+.imag_bar, .cabin_details {
+    width: 100%;
+    background-color: #000000;
+    height: 180px;
+    color: #fff;
+    padding: 0px;
+}
+
+.imag_bar p{
+	padding: 10px;
+    margin: 0px;
+}
+
+.members {
+    width: 100%;
+}
+
+.f_member, .s_member, .t_member {
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.cabin_head, .cabin_body{
+    margin: 0;
+    padding: 5px;
+    
+}
+
+.sub_bar form input[type="email"] {
+    border-radius: 25px 0 0 25px;
+    height: 28px;
+    width: calc(100% - 60px);
+    padding: 0px 15px;
+    border: none;
+}
+ 
+ /*footer*/
+.copy {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    display: none;
+}
+
+}
+
+/*header,
+.slider_section,
+.services_blog,
+.about_us,
+.subscription
+footer
+{
+	display: none;
+}*/
+
+
