@@ -1,2 +1,2 @@
-#my_first_project
-this is may first web template
+@my_first_project
+this is may first html web template
